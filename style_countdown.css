@@ -1,0 +1,84 @@
+.container {
+  font-family: sans-serif;
+  color: #fff;
+  width: 450px;
+}
+.countdown {
+  padding: 5px;
+  width: 420px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgba(0, 191, 150, .8);
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+.timer {
+  width:400px;
+  padding-left: 25px;
+}
+.countdown-number {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 13px;
+  border-radius: 5px;
+  background: #00816a;
+  font-size: 30px;
+}
+.overlaytimer {
+  width: 250px;
+  font-family: sans-serif;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.days {
+  width: 215px;
+  height: 50px;
+  margin: 5px;
+  font-size: 30px;
+} 
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  background: #00816a;
+  color: #fff;
+  border-radius: 8px;
+} 
+.hours, .minutes, .seconds {
+  width: 50px;
+  height: 30px;
+  margin: 5px 9px;
+  font-size: 20px;
+}
+.title {
+  color: #00816a;
+  font-size: 18px;
+}
+button {
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  margin: 25px 15px;
+  cursor: pointer;
+  background: rgba(0, 191, 150, .8);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.timerStart, .timerStop {
+  width: 60px;
+  height: 25px;
+  margin: 5px;
+  background: #00816a;
+}
+.late{
+  display: none;
+  color: #00816a;
+  font-size: 20px;
+  width: 200px;
+  margin: auto;
+  
+}
